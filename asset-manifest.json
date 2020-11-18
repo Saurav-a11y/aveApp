@@ -1,29 +1,37 @@
 {
   "files": {
-    "main.css": "/aveApp/static/css/main.3afe5eb0.chunk.css",
-    "main.js": "/aveApp/static/js/main.ef84e42f.chunk.js",
-    "main.js.map": "/aveApp/static/js/main.ef84e42f.chunk.js.map",
+    "main.css": "/aveApp/static/css/main.c6f0854c.chunk.css",
+    "main.js": "/aveApp/static/js/main.82250a86.chunk.js",
+    "main.js.map": "/aveApp/static/js/main.82250a86.chunk.js.map",
     "runtime-main.js": "/aveApp/static/js/runtime-main.cc5a794b.js",
     "runtime-main.js.map": "/aveApp/static/js/runtime-main.cc5a794b.js.map",
-    "static/js/2.a5bf34e8.chunk.js": "/aveApp/static/js/2.a5bf34e8.chunk.js",
-    "static/js/2.a5bf34e8.chunk.js.map": "/aveApp/static/js/2.a5bf34e8.chunk.js.map",
+    "static/js/2.4b8f1edf.chunk.js": "/aveApp/static/js/2.4b8f1edf.chunk.js",
+    "static/js/2.4b8f1edf.chunk.js.map": "/aveApp/static/js/2.4b8f1edf.chunk.js.map",
     "index.html": "/aveApp/index.html",
-    "precache-manifest.08ed5b8a91baf9a52b5b85ef9ee4cce1.js": "/aveApp/precache-manifest.08ed5b8a91baf9a52b5b85ef9ee4cce1.js",
+    "precache-manifest.4c51ae9a3ca380329a00052eb30173b7.js": "/aveApp/precache-manifest.4c51ae9a3ca380329a00052eb30173b7.js",
     "service-worker.js": "/aveApp/service-worker.js",
-    "static/css/main.3afe5eb0.chunk.css.map": "/aveApp/static/css/main.3afe5eb0.chunk.css.map",
-    "static/js/2.a5bf34e8.chunk.js.LICENSE.txt": "/aveApp/static/js/2.a5bf34e8.chunk.js.LICENSE.txt",
+    "static/css/main.c6f0854c.chunk.css.map": "/aveApp/static/css/main.c6f0854c.chunk.css.map",
+    "static/js/2.4b8f1edf.chunk.js.LICENSE.txt": "/aveApp/static/js/2.4b8f1edf.chunk.js.LICENSE.txt",
+    "static/media/avenue1.png": "/aveApp/static/media/avenue1.babafca9.png",
+    "static/media/avenue2.png": "/aveApp/static/media/avenue2.3449419b.png",
+    "static/media/avenue3.png": "/aveApp/static/media/avenue3.84f7a4ce.png",
+    "static/media/avenue4.png": "/aveApp/static/media/avenue4.3da75c69.png",
+    "static/media/avenue5.png": "/aveApp/static/media/avenue5.787eb03a.png",
+    "static/media/avenue6.png": "/aveApp/static/media/avenue6.16ce2270.png",
+    "static/media/container.png": "/aveApp/static/media/container.be2826d0.png",
     "static/media/envelope-regular.1a9020c3.svg": "/aveApp/static/media/envelope-regular.1a9020c3.svg",
     "static/media/facebook-f-brands.53757d93.svg": "/aveApp/static/media/facebook-f-brands.53757d93.svg",
     "static/media/google-plus-g-brands.276f52a7.svg": "/aveApp/static/media/google-plus-g-brands.276f52a7.svg",
     "static/media/instagram-brands.e75317fa.svg": "/aveApp/static/media/instagram-brands.e75317fa.svg",
     "static/media/pinterest-p-brands.b216cb02.svg": "/aveApp/static/media/pinterest-p-brands.b216cb02.svg",
     "static/media/shopping-bag.30f07071.svg": "/aveApp/static/media/shopping-bag.30f07071.svg",
+    "static/media/topBanner2.png": "/aveApp/static/media/topBanner2.fe107e07.png",
     "static/media/twitter-brands.6620c8ae.svg": "/aveApp/static/media/twitter-brands.6620c8ae.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc5a794b.js",
-    "static/js/2.a5bf34e8.chunk.js",
-    "static/css/main.3afe5eb0.chunk.css",
-    "static/js/main.ef84e42f.chunk.js"
+    "static/js/2.4b8f1edf.chunk.js",
+    "static/css/main.c6f0854c.chunk.css",
+    "static/js/main.82250a86.chunk.js"
   ]
 }
