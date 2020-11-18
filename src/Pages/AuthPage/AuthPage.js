@@ -8,7 +8,7 @@ export const AuthPage = () => {
   return (
     <div className="single-page">
       <TopBanner
-        imgSrc="../../assets/topBanner2.png"
+        imgSrc="../../img/topBanner2.png"
         className="overlay"
         overlayTitle="Welcome to Ave"
         overlaypara="SignIn or Register"

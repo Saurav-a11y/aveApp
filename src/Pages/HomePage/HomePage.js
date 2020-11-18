@@ -8,7 +8,7 @@ class HomePage extends Component {
   render() {
     return (
       <React.Fragment>
-        <TopBanner imgSrc="../../../assets/container.png" />
+        <TopBanner imgSrc="./img/container.png" />
         <ShopCollection />
 
         <CollectionPreview />

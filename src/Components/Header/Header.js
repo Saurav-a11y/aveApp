@@ -9,7 +9,7 @@ const Header = ({ cartItems }) => {
   return (
     <div className="header">
       <Link to="/">
-        <img alt="logo" src="/assets/logo.png" />
+        <img alt="logo" src="../../img/logo.png" />
       </Link>
       <div className="right-link">
         <div className="navLinks">
