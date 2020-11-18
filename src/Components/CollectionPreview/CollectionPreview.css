@@ -1,0 +1,5 @@
+.collectionPreview {
+    padding: 40px 120px;
+    display: flex;
+    flex-direction: column;
+}

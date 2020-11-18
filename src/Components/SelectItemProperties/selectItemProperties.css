@@ -1,0 +1,22 @@
+.selector:focus{
+    outline: none;
+}
+
+.dataSelector {
+    border-color: rgb(231, 231, 231);
+    background-color: rgba(45, 113, 240, 0.01);
+    width: 174px;
+    padding: 20px 10px;
+}
+
+.dataSelector:focus {
+  
+    outline: none;
+    
+}
+select option:focus{
+    border: none;
+}
+
+
+  

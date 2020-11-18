@@ -1,0 +1,6 @@
+.collection-page .collectionComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px 0px;
+}

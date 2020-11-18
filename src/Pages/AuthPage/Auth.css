@@ -1,0 +1,16 @@
+.authComponent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 0px 120px 0px;
+}
+.authComponent .authComponentHeader {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(87, 81, 83);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.authComponent .authForm {
+  margin-top: 45px;
+}
