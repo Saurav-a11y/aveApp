@@ -8,7 +8,7 @@ const ShopData = {
       {
         id: 23,
         name: "Black Sleeves Mens",
-        imageUrl: "../../img/shopImage/avenue1.2.png",
+        imageUrl: require("../../img/shopImage/avenue1.png"),
         price: 25,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -18,7 +18,7 @@ const ShopData = {
       {
         id: 24,
         name: "Floral Blouse",
-        imageUrl: "/assets/shopImage/avenue2.png",
+        imageUrl: require("../../img/shopImage/avenue2.png"),
         price: 20,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -28,7 +28,7 @@ const ShopData = {
       {
         id: 25,
         name: "Floral Dress",
-        imageUrl: "/assets/shopImage/avenue3.png",
+        imageUrl: require("../../img/shopImage/avenue3.png"),
         price: 80,
         description:
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
@@ -48,7 +48,7 @@ const ShopData = {
       {
         id: 30,
         name: "Camo Down Vest",
-        imageUrl: "/assets/shopImage/avenue4.png",
+        imageUrl: require("../../img/shopImage/avenue4.png"),
         price: 325,
         description:
           " At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
@@ -58,7 +58,7 @@ const ShopData = {
       {
         id: 31,
         name: "Floral T-shirt",
-        imageUrl: "/assets/shopImage/avenue2.png",
+        imageUrl: require("../../img/shopImage/avenue5.png"),
         price: 20,
         description:
           " At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",
@@ -68,7 +68,7 @@ const ShopData = {
       {
         id: 32,
         name: " White Longsleeve",
-        imageUrl: "/assets/shopImage/avenue6.png",
+        imageUrl: require("../../img/shopImage/avenue6.png"),
         price: 25,
         description:
           " At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus",

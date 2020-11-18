@@ -3,12 +3,12 @@ import "./Auth.css";
 import SignupComponent from "../../Components/SignupComponent/SignupComponent";
 import SignInComponent from "../../Components/SinginComponent/SignInComponent";
 import TopBanner from "../../Components/TopBannnerComponent/TopBanner";
-
+import imgContainer from "../../img/topBanner2.png";
 export const AuthPage = () => {
   return (
     <div className="single-page">
       <TopBanner
-        imgSrc="../../img/topBanner2.png"
+        imgSrc={imgContainer}
         className="overlay"
         overlayTitle="Welcome to Ave"
         overlaypara="SignIn or Register"

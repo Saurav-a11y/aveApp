@@ -4,12 +4,13 @@ import { Link } from "react-router-dom";
 import SearchBoxComponent from "../SearchBoxComponent/SearchBoxComponent";
 import CartIconComponent from "../CartIconComponent/CartIconComponent";
 import { connect } from "react-redux";
+import logo from "../../img/logo.png";
 
 const Header = ({ cartItems }) => {
   return (
     <div className="header">
       <Link to="/">
-        <img alt="logo" src="../../img/logo.png" />
+        <img alt="logo" src={logo} />
       </Link>
       <div className="right-link">
         <div className="navLinks">
