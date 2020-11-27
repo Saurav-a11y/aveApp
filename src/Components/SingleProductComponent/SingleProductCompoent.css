@@ -1,92 +1,89 @@
-.singleProduct{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 60px;
+.singleProduct {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 60px;
 }
 .imgComponent {
-    height: 746px;
+  margin-right: 7%;
 }
-.singleItems{
-    display: flex;
-    width: 60%;
-    flex-direction: row;
+.singleItems {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
 }
-.list{
-    display: flex;
-    color: #8c8c8c;
-    text-transform: uppercase;
-    margin-bottom: 25px;
+.list {
+  display: flex;
+  color: #8c8c8c;
+  text-transform: uppercase;
+  margin-bottom: 25px;
 }
 .list .reviews {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 .list .addReview {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 .list :last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
 
 .socialLinkIcon {
-    width: 16px;
-    height: 16px;
+  width: 16px;
+  height: 16px;
 }
 .socialLinks .socialLinkIcon {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 .socialLinks :last-child {
-    margin-right: 0px;
+  margin-right: 0px;
 }
-.socialLinks :first-child{
-    margin-right: 20px;
+.socialLinks :first-child {
+  margin-right: 20px;
 }
 .descComponent .product-title {
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: rgb(87, 81, 83);
-    text-transform: uppercase;
-    margin: 0px 0px 25px 0px;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(87, 81, 83);
+  text-transform: uppercase;
+  margin: 0px 0px 25px 0px;
 }
 .descComponent .productPrice {
-    font-size: 30px;
-    font-family: "Montserrat";
-    color: rgb(154, 154, 154);
-    text-transform: uppercase;
-    line-height: 1.2;
-    
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 .descComponent .productDescription {
-    font-size: 15px;
-    font-family: "Roboto";
-    color: rgb(142, 140, 140);
-    line-height: 1.467;
-    display: flex;
-    margin: 20px 0px;
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(142, 140, 140);
+  line-height: 1.467;
+  display: flex;
+  margin: 20px 0px;
 }
 .singleProductImg {
-    width: 490px;
+  width: 15vw;
 }
 .descComponent .propSelector {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 40px;
-    
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
 }
-.descComponent .propSelector .selectorContainer{
-    margin-right: 50px;
+.descComponent .propSelector .selectorContainer {
+  margin-right: 50px;
 }
 .descComponent .btnGrp .custom-button {
-    display: block;
-    position: relative;
-    right: 0;
-    bottom: 0;
-    
+  display: block;
+  position: relative;
+  right: 0;
+  bottom: 0;
 }
 .descComponent .btnGrp {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .descComponent .btnGrp .custom-button:first-child {
-    margin-right: 40px;
+  margin-right: 40px;
 }

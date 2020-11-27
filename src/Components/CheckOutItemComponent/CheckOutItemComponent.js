@@ -6,26 +6,23 @@ const CheckOutItemComponent = ({ cartItems }) => {
   const {
     imageUrl,
     name,
-    quantity,
     price,
     selectedColor,
     selectedSize,
+    quantity,
   } = cartItems;
 
   return (
-    <div className="checkout-item">
-      <div className="image-container">
+    <React.Fragment>
+      <td className="image-container">
         <img src={imageUrl} alt="item" />
-      </div>
-      <div className="name"> {name} </div>
-      <div className="color">
-        <div className="value"> {selectedColor} </div>
-      </div>
-      <div className="size">
-        <div className="value"> {selectedSize} </div>
-      </div>
-      <div className="itemprice"> {price} </div>
-    </div>
+      </td>
+      <td className="name"> {name} </td>
+      <td className="itemprice"> {price} </td>
+      <td className="color">{selectedColor}</td>
+      <td className="size">{selectedSize}</td>
+      <td className="quantity"> {quantity} </td>
+    </React.Fragment>
   );
 };
 

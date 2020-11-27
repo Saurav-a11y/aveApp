@@ -1,5 +1,32 @@
 .collectionPreview {
-    padding: 40px 120px;
-    display: flex;
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .collectionPreview {
+    padding: 0;
+  }
+  .collectionPreview .collection-item {
     flex-direction: column;
+    align-items: center;
+  }
+  .collectionPreview .collection-item .itemComponent {
+    width: 85vw;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .collectionPreview {
+    padding: 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1025px) and (max-width: 1260px) {
+  .collectionPreview {
+    padding: 0 20px;
+  }
 }

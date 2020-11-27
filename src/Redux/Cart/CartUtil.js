@@ -21,7 +21,6 @@ export const addItemToCart = (
       quantity: 1,
       selectedColor: selectedColor,
       selectedSize: selectedSize,
-      code: "#345678",
     },
   ];
 };

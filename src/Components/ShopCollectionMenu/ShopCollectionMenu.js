@@ -2,11 +2,10 @@ import React from "react";
 import "./ShopCollectionMenu.css";
 
 const ShopCollectionMenu = ({ collection, handleClick }) => {
-  const { title, imageUrl } = collection;
+  const { imageUrl } = collection;
   return (
     <div className="shopCollectionMenu" onClick={handleClick}>
-      <div className="menuTitle"> {title} </div>
-      <img alt="menu-image" src={imageUrl} />
+      <img alt="menuimage" src={imageUrl} className="img-responsive" />
     </div>
   );
 };

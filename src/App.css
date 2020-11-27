@@ -20,12 +20,13 @@ a:focus {
 .img-responsive {
   width: 100%;
   height: auto;
+  object-fit: cover;
 }
 .app {
   position: relative;
 }
 .single-page {
-  padding-top: 6%;
+  padding: 6% 4%;
 }
 .single-page .topBanner .custom-button {
   display: none;

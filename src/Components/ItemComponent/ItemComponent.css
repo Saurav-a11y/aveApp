@@ -1,100 +1,93 @@
-
 .itemComponent {
-    padding: 20px 20px;
-    font-size: 21px;
-    font-family: "Montserrat";
-    color: rgb(154, 154, 154);
-    text-transform: uppercase;
-    line-height: 1.2;
-    letter-spacing: 2px;
-    display: flex;
-    position: relative;
-    transition: background-color 1s linear,
-     ease-out 4s,
+  padding: 20px 20px;
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(154, 154, 154);
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  display: flex;
+  position: relative;
+  transition: background-color 1s linear, ease-out 4s,
     transform 1s steps(3, start);
-    /* background-color: 1s ease-out 1s; */
+  /* background-color: 1s ease-out 1s; */
+  width: 33vw;
 }
 .itemComponent:hover {
-opacity: 0.6;
-transition: all;
+  opacity: 0.6;
+  transition: all;
 }
 .itemComponent:hover .collection-footer {
-    display: block
-    
+  display: block;
 }
 
 .collection-footer {
-    display: none;
-    position: absolute;
-    bottom: 5%;
-    width: 100%;
-    transition: background-color 1s linear,
-     ease-out 4s,
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  transition: background-color 1s linear, ease-out 4s,
     transform 1s steps(3, start);
-    /* background-color: 1s ease-out 1s; */
-   
-   
-} 
+  /* background-color: 1s ease-out 1s; */
+}
 .itemImage {
-    position: relative;
+  position: relative;
 }
 .price {
-    position: absolute;
-    z-index: 100;
-    margin: 10px 10px;
+  position: absolute;
+  z-index: 60;
+  margin: 10px 10px;
 }
-.title{
-    display: flex;
-    font-size: 13px;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    text-transform: uppercase;
-    line-height: 1.538;
-    font-weight: 700;
-    justify-content: center;
-    letter-spacing: 7px;
-    opacity: 1;
+.title {
+  display: flex;
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-transform: uppercase;
+  line-height: 1.538;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: 7px;
+  opacity: 1;
 }
-.title :first-child{
-    margin-right: 20px;
+.title :first-child {
+  margin-right: 20px;
 }
 .description {
-    font-size: 15px;
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    line-height: 1.467;
-    text-align: center;
-    opacity: 1;
-    width: 80%;
-    margin: 0 auto;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  line-height: 1.467;
+  text-align: center;
+  opacity: 1;
+  width: 80%;
+  margin: 0 auto;
 }
 .itemIconBox {
-    display: flex;
-    justify-content: center;
-   
+  display: flex;
+  justify-content: center;
 }
-.itemIconBox :first-child{
-    margin-right: 20px;
+.itemIconBox :first-child {
+  margin-right: 20px;
 }
-.itemIconBox .fontIcon :hover{
-    color: rgb(0, 200, 200);
-    transition: all;
-    transition: 0.3s ease-in-out;
-    cursor: pointer;
+.itemIconBox .fontIcon :hover {
+  color: rgb(0, 200, 200);
+  transition: all;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
-.itemIconBox .fontIcon :last-child :hover{
-    color: red
+.itemIconBox .fontIcon :last-child :hover {
+  color: red;
 }
 /* .itemComponent:hover .itemIconBox {
     display: block
 
     
 } */
-.collection-footer .view{
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    font-size: 14px;
-    cursor: pointer;
+.collection-footer .view {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
 }
-  

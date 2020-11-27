@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./SingleProductCompoent.css";
 import { ReactComponent as FacebookIcon } from "../../iconsFile/facebook-f-brands.svg";
 import { ReactComponent as TwitterIcon } from "../../iconsFile/twitter-brands.svg";
@@ -34,8 +34,7 @@ class SingleProductCompoent extends React.Component {
     console.log(this.props.selectedSize);
   }
   submitItem = () => {
-    const data = this.state;
-    const { state } = this.props.data;
+    const { state } = this.props.location;
     const { selectedColor } = this.props.selectedColor;
     const { selectedSize } = this.props.selectedSize;
     this.props.addItemCart(state, selectedColor, selectedSize);
@@ -55,7 +54,7 @@ class SingleProductCompoent extends React.Component {
           <div className="imgComponent">
             <img
               alt="SingleProductImg"
-              className="singleProductImg"
+              className="singleProductImg img-responsive"
               src={imageUrl}
             />
           </div>
@@ -79,27 +78,36 @@ class SingleProductCompoent extends React.Component {
               <span className="productDescription"> {description} </span>
             </div>
             <div className="propSelector">
-              <div className="selectorContainer">
-                <span className="selectorTitle"> Choose Colors </span>
-                <SelectItemProperties
-                  name="color"
-                  value={this.state.color}
-                  data={colors}
-                  handleChange={this.handleChange}
-                  onClick={() => this.props.colorSelected(this.state.color)}
-                  placeholder="Choose Color"
-                />
-              </div>
-              <div className="selectorContainer">
-                <span className="selectorTitle"> Choose Size </span>
-                <SelectItemProperties
-                  name="size"
-                  value={this.state.size}
-                  data={size}
-                  handleChange={this.handleChange}
-                  onClick={() => this.props.sizeSelected(this.state.size)}
-                />
-              </div>
+              {state.colors ? (
+                <div className="selectorContainer">
+                  <span className="selectorTitle"> Choose Colors </span>
+                  <SelectItemProperties
+                    name="color"
+                    value={this.state.color}
+                    data={colors}
+                    handleChange={this.handleChange}
+                    onClick={() => this.props.colorSelected(this.state.color)}
+                    placeholder="Choose Color"
+                  />
+                </div>
+              ) : (
+                ""
+              )}
+
+              {size ? (
+                <div className="selectorContainer">
+                  <span className="selectorTitle"> Choose Size </span>
+                  <SelectItemProperties
+                    name="size"
+                    value={this.state.size}
+                    data={size}
+                    handleChange={this.handleChange}
+                    onClick={() => this.props.sizeSelected(this.state.size)}
+                  />
+                </div>
+              ) : (
+                ""
+              )}
             </div>
             <div className="btnGrp">
               <CustomButton onClick={this.submitItem}>Add To Cart</CustomButton>

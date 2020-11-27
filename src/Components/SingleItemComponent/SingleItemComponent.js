@@ -1,17 +1,13 @@
 import React from "react";
 import { connect } from "react-redux";
-import {
-  finditem,
-  selectCollectionSingleItem,
-} from "../../Redux/Shop/ShopSelector";
+import { selectCollectionSingleItem } from "../../Redux/Shop/ShopSelector";
 import SingleProductCompoent from "../SingleProductComponent/SingleProductCompoent";
 
-const SingleItemComponent = ({ collection, location, match }) => {
+const SingleItemComponent = ({ collection, match }) => {
   console.log(collection);
   console.log(match.params);
   return (
     <div>
-      <span className="title"> singleItem</span>
       {/* {collection.map((singleItem, idx) => (
         <SingleProductCompoent key={idx} item={singleItem} />
       ))} */}

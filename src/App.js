@@ -6,7 +6,6 @@ import Header from "./Components/Header/Header";
 import { AuthPage } from "./Pages/AuthPage/AuthPage";
 import { CheckOutPage } from "./Pages/CheckOutPage/CheckOutPage";
 import { ShopPage } from "./Pages/CollectionPage/ShopPage";
-
 import HomePage from "./Pages/HomePage/HomePage";
 import ProductPage from "./Pages/ProductPage/ProductPage";
 

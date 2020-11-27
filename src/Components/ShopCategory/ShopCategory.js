@@ -1,9 +1,21 @@
 import React from "react";
+import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
+import { selectShopPreview } from "../../Redux/Shop/ShopSelector";
+import CollectionCategoryComponent from "../CollectionCategoryCompoenent/CollectionCategoryComponent";
 
-export const ShopCategory = ({ match }) => {
+const ShopCategory = ({ match, collections }) => {
+  console.log("from shop catergory");
+  console.log(collections);
   return (
     <div>
-      <span className="title">shop Category page</span>
+      {collections.map((collection) => (
+        <CollectionCategoryComponent collection={collection} />
+      ))}
     </div>
   );
 };
+const mapStateToprops = createStructuredSelector({
+  collections: selectShopPreview,
+});
+export default connect(mapStateToprops)(ShopCategory);

@@ -5,9 +5,11 @@ import ItemComponent from "../ItemComponent/ItemComponent";
 const CollectionItem = ({ items, category }) => {
   return (
     <div className="collection-item ">
-      {items.map((item) => (
-        <ItemComponent key={item.id} item={item} category={category} />
-      ))}
+      {items
+        .filter((item, idx) => idx < 3)
+        .map((item) => (
+          <ItemComponent key={item.id} item={item} category={category} />
+        ))}
     </div>
   );
 };

@@ -3,7 +3,7 @@
   top: 0;
 }
 .bannerText {
-  font-size: 450px;
+  font-size: 25vw;
   font-family: "Montserrat";
   color: rgb(87, 81, 83);
   font-weight: 700;
@@ -46,4 +46,30 @@
   position: absolute;
   bottom: 22%;
   right: 19%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .topBanner .custom-button {
+    bottom: 32%;
+    right: 21%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .topBanner .custom-button {
+    bottom: 28%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

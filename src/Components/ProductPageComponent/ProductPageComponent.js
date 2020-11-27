@@ -1,6 +1,5 @@
 import React from "react";
 import TopBanner from "../../Components/TopBannnerComponent/TopBanner";
-import SingleProductCompoent from "../../Components/SingleProductComponent/SingleProductCompoent";
 import { connect } from "react-redux";
 
 const ProductPageComponent = ({ ...props }) => {

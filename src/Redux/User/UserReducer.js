@@ -1,5 +1,6 @@
 const initialState = {
   currentUser: null,
+  cart: null,
 };
 
 const userReducer = (state = initialState, action) => {
@@ -8,6 +9,11 @@ const userReducer = (state = initialState, action) => {
       return {
         ...state,
         currentUser: action.payload,
+      };
+    case "USER_SIGN_OUT":
+      return {
+        ...state,
+        currentUser: null,
       };
     default:
       return state;

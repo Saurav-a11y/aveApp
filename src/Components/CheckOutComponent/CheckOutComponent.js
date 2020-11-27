@@ -10,29 +10,25 @@ const CheckOutComponent = ({ cartItems }) => {
 
   return (
     <div className="checkout-page">
-      <div className="checkout-header">
-        <div className="header-block">
-          <span>Product </span>
-        </div>
-        <div className="header-block">
-          <span>Name</span>
-        </div>
-        <div className="header-block">
-          <span>Color</span>
-        </div>
-        <div className="header-block">
-          <span>Size</span>
-        </div>
-        <div className="header-block">
-          <span>Price</span>
-        </div>
-      </div>
-      {cartItems.map((cartItems) => (
-        <CheckOutItemComponent cartItems={cartItems} />
-      ))}
-      {/* <div className="total">
-        <span>Total: ${cartTotal} </span>
-      </div> */}
+      <table className="checkout-header">
+        <thead>
+          <tr>
+            <th className="header-block">Product</th>
+            <th className="header-block">Name</th>
+            <th className="header-block">Price</th>
+            <th className="header-block">Color</th>
+            <th className="header-block">Size</th>
+            <th className="header-block">Quantity</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cartItems.map((cartItems) => (
+            <tr className="checkoutItem">
+              <CheckOutItemComponent key={cartItems.id} cartItems={cartItems} />
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 };

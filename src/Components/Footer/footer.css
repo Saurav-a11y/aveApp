@@ -1,6 +1,17 @@
-.siteFooter{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(248, 248, 248);
-    padding: 6% 0%;
+.siteFooter {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 248, 248);
+  padding: 6% 0%;
+}
+.navLinks .link {
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  line-height: 1.538;
+  color: #303030;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
 }

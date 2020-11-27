@@ -1,29 +1,14 @@
 .searchBox {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(231, 231, 231);
-    background-color: rgba(248, 248, 248, 0);
-    height: 34px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(231, 231, 231);
+  background-color: rgba(248, 248, 248, 0);
+  width: 10vw;
+  height: 4vh;
 }
-.searchBox::placeholder{
-    font-size: 13px;
-    color: rgb(152, 152, 152);
-    font-family: 'Montserrat', sans-serif;
-    text-transform: capitalize;
+.searchBox::placeholder {
+  font-size: 13px;
+  color: rgb(152, 152, 152);
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
 }
-
-/* .input {
-    border-style: solid;
-    border-width: 1px;
-    border-color: rgb(231, 231, 231);
-    background-color: rgba(248, 248, 248, 0);
-    position: absolute;
-    left: 1722px;
-    top: 79px;
-    width: 194px;
-    height: 34px;
-    z-index: 175;
-  } */
- 
-
-  

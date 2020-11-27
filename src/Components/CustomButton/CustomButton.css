@@ -3,15 +3,16 @@
   border-width: 2px;
   border-color: rgb(115, 115, 115);
   background-color: rgba(115, 115, 115, 0);
-  font-size: 16px;
+  font-size: 0.8vw;
   font-family: "Montserrat";
   color: rgb(69, 70, 71);
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  padding: 22px 34px;
   letter-spacing: 2px;
   transition: background-color 0.5s ease-in;
+  width: 17vw;
+  height: 6vh;
 }
 .custom-button:hover {
   border-style: none;
@@ -26,4 +27,29 @@
   border-color: rgb(115, 115, 115);
   border-style: solid;
   border-width: 2px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .custom-button {
+    height: unset;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  .custom-button {
+    height: 6vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

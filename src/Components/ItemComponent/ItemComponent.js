@@ -14,7 +14,7 @@ const ItemComponent = ({
   addItemCart,
   match,
 }) => {
-  const { name, price, imageUrl, description, id } = item;
+  const { name, price, imageUrl, id } = item;
 
   return (
     <div className="itemComponent">
@@ -50,4 +50,6 @@ const ItemComponent = ({
   );
 };
 
-export default withRouter(connect(null, { addItemCart })(ItemComponent));
+export default React.memo(
+  withRouter(connect(null, { addItemCart })(ItemComponent))
+);
