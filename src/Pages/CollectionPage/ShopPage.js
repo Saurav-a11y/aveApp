@@ -2,7 +2,7 @@ import React from "react";
 import "./ShopPage.css";
 import { Route } from "react-router-dom";
 import ShopCategory from "../../Components/ShopCategory/ShopCategory";
-import ShopCategoryItem from "../../Components/ShopCategoryItem./ShopCategoryItem";
+import ShopCategoryItem from "../../Components/ShopCategoryItem/ShopCategoryItem";
 
 import SingleItemComponent from "../../Components/SingleItemComponent/SingleItemComponent";
 

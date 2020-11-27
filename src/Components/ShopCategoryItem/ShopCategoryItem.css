@@ -1,0 +1,7 @@
+.shopCategoryItem {
+  display: flex;
+  justify-content: center;
+}
+.shopCategoryItem .itemComponent {
+  width: 14vw;
+}
