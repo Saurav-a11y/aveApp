@@ -2,7 +2,7 @@
   "name": "avenueapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Saurav-a11y.github.io",
+  "homepage": "https://Saurav-a11y.github.io/aveApp/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -34,7 +34,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
